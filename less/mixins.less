@@ -1,1 +1,21 @@
 // Mixins Here
+
+.basicFlex(){
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.headerColor(){
+    color: #23293B;
+}
+
+
+//Parametric Mixins
+
+.btnStyle(@fontColor, @btnFont, @btnColor){
+    color: @fontColor;
+    font-family: @btnFont;
+    background-color: @btnColor;
+    font-size: 1.6rem;
+}
