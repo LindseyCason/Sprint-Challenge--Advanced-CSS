@@ -5,10 +5,19 @@
           margin:0px;
           };
     .basicFlex();//this is a mixin
-flex-direction: column;
-background: @wild-sand;
-width: 100%;
-padding-bottom: 20px;
+        flex-direction: column;
+        background: @wild-sand;
+        opacity: .9; //Stretch Opacity
+        width: 100%;
+        padding-bottom: 20px;
+
+
+        //this is the stretch
+
+position: fixed;
+padding-top:10px;
+top: 0px;
+        //end stretch
     .navatags{
         
       .basicFlex();//this is a mixin
@@ -18,7 +27,6 @@ padding-bottom: 20px;
                     margin:0px;
                     padding: 10px;
                 }
-                // padding: 0px 30px 0px 30px;
                 margin: 0px 30px 0px 30px;
                 font-size: 1.6rem;
                 text-decoration: none;
