@@ -166,6 +166,7 @@ p {
   align-items: center;
   flex-direction: column;
   background: #F6F6F6;
+  width: 100%;
   padding-bottom: 20px;
 }
 .header .navbar .navatags {
@@ -194,6 +195,15 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.header img {
+  border-radius: 5px;
 }
 .home .intro h2 {
   color: #23293B;
@@ -249,6 +259,10 @@ footer {
   width: 30%;
   border-radius: 5px;
   text-align: center;
+}
+.home .walk .walk-text .btn:hover {
+  background-color: #F1F1F1;
+  color: #23293B;
 }
 .home .walk .walk-img {
   width: 46%;

@@ -1,4 +1,15 @@
 // Home Content
+.header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  // border: 2px solid coral;
+  img{
+    border-radius: 5px;
+  }
+}
+
 .home {
 
   .intro {
@@ -65,8 +76,13 @@
         width: 30%;
         border-radius: 5px;
         text-align: center;
-      }
-    }
+        &:hover{
+          background-color: @sea-shell;
+          color: @ebony-clay;
+
+        }  //closes my hover
+      }//closes btn
+    }//closes walk text
 
     .walk-img {
       width: 46%;
